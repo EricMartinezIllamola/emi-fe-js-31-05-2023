@@ -1,0 +1,32 @@
+:root{
+    --color1: white;
+    --color2: black;
+}
+
+body {
+    background-color: var(--bodyBC);
+    color: var(--bodyC);
+}
+
+#boton {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--botonBC);
+    color: var(--botonC);
+}
+
+.light {
+    --bodyBC: var(--color1);
+    --bodyC: var(--color2);
+    --botonBC: var(--color2);
+    --botonC: var(--color1);
+
+}
+
+.dark {
+    --bodyBC: var(--color2);
+    --bodyC: var(--color1);
+    --botonBC: var(--color1);
+    --botonC: var(--color2);
+}
